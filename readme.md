@@ -78,6 +78,6 @@ Table of Contents</h2>
             </ul>
         <h2>Other Files</h2>
             <ul>
-                <li><strong>App.js</strong> - App.js typically contains the main component that represents the root of the application, defining the overall structure and layout.</li>
-                <li><strong>index.js</strong> - index.js is responsible for rendering the application into the DOM, initializing the app and its dependencies. These files are essential for the proper functioning and rendering of the application.</li>
+                <li id="app"><strong>App.jsx</strong> - App.jsx typically contains the main component that represents the root of the application, defining the overall structure and layout.</li>
+                <li id="index"><strong>index.jsx</strong> - index.jsx is responsible for rendering the application into the DOM, initializing the app and its dependencies. These files are essential for the proper functioning and rendering of the application.</li>
             </ul>
