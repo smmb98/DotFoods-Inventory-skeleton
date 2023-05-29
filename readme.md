@@ -13,7 +13,7 @@ Table of Contents</h2>
         <li><a href="#actions">/actions</a></li>
         <li><a href="#reducers">/reducers</a></li>
         <li><a href="#selectors">/selectors</a></li>
-        <li><a href="#middlewares">/middlewares</a></li>
+        <li><a href="#store-middlewares">/middlewares</a></li>
     </ul>
     </li>
     <li><a href="#styles">/styles</a></li>
@@ -23,7 +23,7 @@ Table of Contents</h2>
     <ul>
         <li><a href="#metrics">/metrics</a></li>
         <li><a href="#reports">/reports</a></li>
-        <li><a href="#middlewares">/middlewares</a></li>
+        <li><a href="#performance-middlewares">/middlewares</a></li>
     </ul>
     </li>
     <li><a href="#app">app.jsx</a></li>
@@ -57,7 +57,7 @@ Table of Contents</h2>
                 <p> The <strong>'/reducers'</strong> directory contains Redux reducers, which specify how the state should change in response to actions. They handle updating the state based on the dispatched actions. For example, you might have a <strong>'userReducer.js'</strong> file that handles state changes related to user data.</p>
             <h3 id="selectors">/selectors :</h3>
                 <p> The <strong>'/selectors'</strong> directory includes Redux selectors, which are functions that extract specific pieces of state from the Redux store. They help in accessing and deriving derived state from the store. For example, you might have a <strong>'userSelectors.js'</strong> file that extracts user-related data, such as the current user or user list, from the state.</p>
-            <h3 id="middlewares">/middlewares :</h3>
+            <h3 id="store-middlewares">/middlewares :</h3>
                 <p> The <strong>'/middlewares'</strong> directory contains custom Redux middlewares, which intercept actions before they reach the reducers. Middlewares provide a way to add custom logic or side effects to the Redux flow. For example, you might have a middleware that logs actions or handles asynchronous API calls.</p>
             </ul>
         <h2 id="styles">/styles :</h2>
